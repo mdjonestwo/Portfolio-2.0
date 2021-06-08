@@ -192,7 +192,7 @@ margin: 0rem;
 .contact-me .col-4{
   height: 200px;
   width: 200px;
-  margin: 0 30px;
+  margin: 0 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,12 +205,12 @@ margin: 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   border: 1px solid #ffffff !important;
   background-color: #ffffff !important; 
   border-radius: 50%;
-  margin: 0 10px;
+  margin: 0 5px;
 
 }
 
@@ -232,3 +232,16 @@ footer .row .col{
   justify-content: center;
   font-size: 36px;
 }
+
+.modal-content {
+  background-color: #181a1b;
+}
+
+.modal-title{
+  font-size: 28px;
+}
+
+.modal-body{
+  font-size: 24px;
+}
+
