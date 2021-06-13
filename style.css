@@ -9,8 +9,13 @@
 }
 
 body{
-  background-color: #181a1b;
-  color: #d1cdc7;
+  background-color: #f3f3f3;
+  color: #2e367e;
+}
+
+.darkmode{
+  background-color: #1a1818;
+  color: #d1d1d1;
 }
 
 canvas {
@@ -63,11 +68,11 @@ margin: 0rem;
   justify-content: center;
 }
 
-.about-me .col-6 h3{
+.about-me .about-text h3{
   font-size: 100px;
 }
 
-.about-me .col-6 p{
+.about-me .about-text p{
   font-size: 36px;
 }
 
@@ -144,7 +149,7 @@ margin: 0rem;
 
 
 
-.projects .col-6{
+.projects .project-col{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -153,27 +158,26 @@ margin: 0rem;
   
 }
 
-.projects .col-6  .project-img{
+.projects .project-col .project-img{
   height: 500px;
   width: 800px;
   margin-top: 10px;
-  
 }
 
-.projects .col-6  .project-img:hover{
+.projects .project-col  .project-img:hover{
   box-shadow: 1px 1px 18px 4px rgba(242,193,47,1);
   -webkit-box-shadow: 1px 1px 18px 4px rgba(242,193,47,1);
   -moz-box-shadow: 1px 1px 18px 4px rgba(242,193,47,1);
   transition: .4s ease;
 }
 
-.projects .col-6  img{
+.projects .project-col  img{
   height: 100%;
   width: 100%;
   background-position: center;
 }
 
-.projects .col-6 h3{
+.projects .project-col h3{
   padding-top: 30px;
   font-size: 36px;
 }
@@ -189,7 +193,7 @@ margin: 0rem;
   flex-direction: row;
 
 }
-.contact-me .col-4{
+.contact-me .contact-icon{
   height: 200px;
   width: 200px;
   margin: 0 5px;
@@ -245,3 +249,294 @@ footer .row .col{
   font-size: 24px;
 }
 
+@media (min-width: 0px) and (max-width: 373px) {
+
+  .header h1{
+    font-size: 40px;
+  }
+
+  
+  .header p {
+    font-size: 25px;
+  }
+
+  .about-me{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-me .about-text h3{
+    font-size: 50px;
+   
+  
+  }
+  
+  .about-me .about-text p{
+    font-size: 20px;
+    
+  }
+  
+  .about-me .pic{
+    display: flex;
+    justify-content: center;
+  }
+  .about-me img{
+    height: 200px;
+    width: 200px;
+  }
+
+  .skills {
+    padding: 50px 0 15px 0;
+  }
+  
+  .skills .skills-title h2{
+    font-size: 40px;
+  }
+
+  
+.skills .col ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.projects .projects-title h3{
+  font-size: 40px;
+}
+
+.projects .project-col .project-img{
+  height: 200px;
+  width: 300px;
+  margin-top: 5px;
+}
+
+.projects .project-col h3{
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.projects .row h3{
+  font-size: 26px;
+}
+
+.projects p{
+  font-size: 16px; 
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 0 25px;
+}
+
+.contact-me .contact-title h3{
+  font-size: 36px;
+}
+
+.contact-me .contact-icon{
+  height: 75px;
+  width: 75px; 
+}
+
+
+
+.contact-me a{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ffffff !important;
+  background-color: #ffffff !important; 
+  border-radius: 50%;
+  margin: 0 5px;
+
+}
+
+footer .row .col{
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+}
+@media (min-width: 374px) and (max-width: 767px) {
+
+  .header h1{
+    font-size: 40px;
+  }
+
+  
+  .header p {
+    font-size: 25px;
+  }
+
+  .about-me{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-me .about-text h3{
+    font-size: 50px;
+   
+  
+  }
+  
+  .about-me .about-text p{
+    font-size: 20px;
+    
+  }
+  
+  .about-me .pic{
+    display: flex;
+    justify-content: center;
+  }
+  .about-me img{
+    height: 200px;
+    width: 200px;
+  }
+
+  .skills {
+    padding: 50px 0 15px 0;
+  }
+  
+  .skills .skills-title h2{
+    font-size: 40px;
+  }
+
+  
+.skills .col ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.projects .projects-title h3{
+  font-size: 40px;
+}
+
+.projects .project-col .project-img{
+  height: 200px;
+  width: 300px;
+  margin-top: 5px;
+}
+
+.projects .project-col h3{
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.projects .row h3{
+  font-size: 26px;
+}
+
+.projects p{
+  font-size: 16px; 
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 0 25px;
+}
+
+.contact-me .contact-title h3{
+  font-size: 36px;
+}
+
+.contact-me .contact-icon{
+  height: 75px;
+  width: 75px; 
+}
+
+
+
+.contact-me a{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ffffff !important;
+  background-color: #ffffff !important; 
+  border-radius: 50%;
+  margin: 0 5px;
+
+}
+
+footer .row .col{
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header h1{
+    font-size: 60px;
+  }
+
+  
+  .header p {
+    font-size: 40px;
+  }
+
+  .skills .col ul{
+    font-size: 30px;
+   
+  }
+  
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+  .header h1{
+    font-size: 60px;
+  }
+
+  .about-me .row{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-me .col-lg-6{
+    width: 100%;
+  }
+  .about-me .about-text h3{
+    font-size: 70px;
+  }
+  
+  .about-me .about-text p{
+    font-size: 40px;
+    
+  }
+
+  .about-me .pic{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-me img{
+    height: 400px;
+    width:400px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header p {
+    font-size: 40px;
+  }
+
+  .skills .col ul{
+    font-size: 30px;
+   
+  }
+  
+  .projects p{
+    font-size: 16px; 
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 0 25px;
+  }
+  
+}
