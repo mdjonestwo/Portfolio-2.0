@@ -127,6 +127,51 @@ margin: 0rem;
   color: #181a1b;
 }
 
+/*/////////////////PROJECTS TEST////////////////////////*/
+
+.all-post{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 50px;
+  justify-content: center;
+}
+
+.post-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.post-title h1{
+  padding-top:50px;
+  font-size: 75px;
+}
+
+.all-post .post{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.all-post .post img{
+  height: 400px;
+  width: 600px;
+}
+
+.all-post h3{
+  font-size: 46px;
+}
+
+.all-post p{
+  font-size: 26px;
+}
+
+
+/*///////////////////PROJECTS TEST END//////////////////*/
+
 .projects{
   padding: 50px 0;
 }

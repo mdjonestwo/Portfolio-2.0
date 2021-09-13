@@ -1,0 +1,95 @@
+ #page .nav {
+     height: 75px;
+     display: flex;
+     justify-content: end;
+     align-items: center;
+     padding: 0 50px;
+ }
+
+ #page a{
+     text-decoration: none;
+     color: #2e367e;;
+ }
+
+ #page a:hover{
+     color: red;
+     cursor: pointer;
+ }
+
+ #page .nav-left h2{
+     font-size: 50px;
+ }
+
+ #page .title{
+    padding: 50px 0;
+    padding-left: 35px;
+}
+
+ #page .title h1{
+     font-size: 105px;
+ }
+
+ #page .project{
+     padding: 0 100px;
+ }
+
+ #page .project .project-img {
+    display: flex;
+    justify-content: center;
+}
+
+ #page .project .project-img img{
+     height: 700px;
+     width: 1100px;
+ }
+
+ #page .project .project-text{
+     display: flex;
+     justify-content: center;
+     padding: 50px 0;
+}
+
+#page .project .project-text p{
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;    
+}
+
+#page .project-details {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#page .project-details h2{
+    font-size: 55px;
+}
+
+#page .project-details .project-vid{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    align-items: center;
+}
+#page .project-details .project-tech{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    align-items: center;
+}
+
+#page .project-details .project-tech li{
+    font-size: 45px;
+}
+
+#page .project-link{
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    flex-direction: column;
+}
+
+
+#page .project-link h1{
+    font-size: 55px;
+}
