@@ -542,11 +542,11 @@ footer .row .col{
 
   .about-me .row{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .about-me .col-lg-6{
-    width: 100%;
+    width: 50%;
   }
   .about-me .about-text h3{
     font-size: 70px;
